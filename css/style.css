@@ -1,0 +1,139 @@
+/* Font eks */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+/* Font eks */
+
+/* All */
+*{
+    box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'quicksand', serif;
+    margin: 0 auto;
+    padding: 0px;
+}
+main{
+    overflow: auto;
+}
+
+/* All */
+
+
+/* Header */
+header{
+    padding: 10px;
+    background-color: #0984e3;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.50);
+}
+/* Header */
+
+
+/* Aside */
+aside{
+    width: 20%;
+    position: absolute;
+}
+nav h3, li{
+    text-align: center;
+}
+ a{
+   text-decoration: none;
+
+}
+ li{
+
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+/* Aside */
+
+/* Kartu untuk content dan aside */
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+/* Kartu untuk content dan aside */
+
+/* Kontent artikel */
+.content{
+    width: 80%;
+    position: relative;
+    left: 20%;
+}
+.content img{
+    float: left;
+    width: 150px;
+    margin-right: 30px;
+}
+figure {
+	text-align: center;
+}
+figure img{  
+	width: 100px;	
+}
+#pilihan,#tentang h2,#kontak h2{
+    text-align: center;
+}
+
+/* Kontent artikel */
+
+
+/* Footer */
+.footer{
+    background-color: #0984e3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -1px 7px 0px rgba(0,0,0,0.50);    
+}
+/* Footer */
+
+/* Responsive */
+
+@media screen and (max-width: 996px){
+	aside, .content{
+        width: 100%;
+        display: contents;
+    }
+}
+/* Responsive */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #0984e3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+ 
+
+}
+
+input[type=submit] {
+  background-color: #0984e3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: #74b9ff;
+  cursor: pointer;
+}
